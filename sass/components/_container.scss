@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+ul {
+  padding-left: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+:root {
+  --primery-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
+  --primery-gb-color: #ffffff;
+}
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @media screen and (min-width: 480px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
